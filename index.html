@@ -34,6 +34,14 @@ h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(3
 .next:disabled{opacity:.28;cursor:default}
 .counter{font:11px ui-monospace,monospace;color:#8e908c;letter-spacing:.12em}
 @media(max-width:620px){.card{padding:26px 22px}.grid{width:min(92vw,520px);gap:3px;padding:3px}.controls{grid-template-columns:1fr auto}.quote{grid-column:1 / 3;grid-row:2}.counter{display:none}}
+
+/* Optional research support */
+.ui-research-support{box-sizing:border-box;position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;max-width:100%;margin:28px 0 0;padding:16px 0;border-top:1px solid rgba(255,255,255,.16);color:inherit;font-family:inherit;font-size:14px;line-height:1.5;text-transform:none;letter-spacing:normal;text-align:left}
+.ui-research-support a{display:inline-block;width:auto;min-height:24px;margin:0;padding:2px 0;position:static;background:none;border:0;border-bottom:1px solid currentColor;border-radius:0;color:inherit;font-family:inherit;font-size:14px;font-weight:500;line-height:1.5;text-transform:none;letter-spacing:normal;text-decoration:none;white-space:normal}
+.ui-research-support a:hover{opacity:.8}
+.ui-research-support a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.ui-research-support span{color:inherit;font-size:14px;line-height:1.5;opacity:.72}
+@media print{.ui-research-support{display:none}}
 </style>
 </head>
 <body>
@@ -47,6 +55,7 @@ h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(3
     <p class="disclaimer">For reflection only. The forms are not diagnostic and this is not a psychological or medical assessment.</p>
     <button id="begin" class="primary">Begin today's observation</button>
     <a class="mothership" href="https://uselessinstruments.com" target="_blank" rel="noopener">Useless Instruments <span>↗</span></a>
+<aside class="ui-research-support" aria-label="Optional research support"><a href="https://www.paypal.com/ncp/payment/URD6UTHYRKD9N" target="_blank" rel="noopener noreferrer">Support the research</a><span>Optional · $1 · $2 · $5 · $10 · $100</span></aside>
   </div>
 </div>
 
